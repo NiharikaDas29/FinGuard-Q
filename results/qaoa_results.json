@@ -1,0 +1,31 @@
+<escape>{
+  "project": "FinGuard-Q",
+  "experiment": "Real-candidate QAOA",
+  "simulator": "Qollab simulator",
+  "qubits": 6,
+  "cost_layers": 1,
+  "shots": 512,
+  "gamma": 0.0002,
+  "beta": 0.4,
+  "priorities": {
+    "A": 100,
+    "B": 53,
+    "C": 25
+  },
+  "review_times": {
+    "A": 3,
+    "B": 3,
+    "C": 3
+  },
+  "review_budget": 6,
+  "exact_classical_selection": ["A", "B"],
+  "exact_classical_priority": 153,
+  "best_valid_qaoa_selection": ["A", "B"],
+  "best_valid_qaoa_priority": 153,
+  "valid_selection_count": 21,
+  "total_shots": 512,
+  "constraint_satisfying_rate": 0.041015625,
+  "most_frequent_bitstring": "111111",
+  "most_frequent_bitstring_count": 117,
+  "quantum_advantage_claimed": false
+}</escape>
