@@ -1,0 +1,4 @@
+case,transaction_id,risk_score,priority,review_time
+A,375,0.992211,100,3
+B,362,0.991388,53,3
+C,379,0.990890,25,3
